@@ -1,21 +1,19 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# OS
+.DS_Store
+Thumbs.db
 
-# dependencies
+# IDE
+.idea/
+.vscode/
+
+# Dependencies
 /node_modules
 
-# testing
-/coverage
-
-# production
-/build
-/dist
-/.next
-
-# misc
-/.idea
-.DS_Store
-.env
-Dockerfile
+# Logs
 npm-debug.log*
 
-/.vscode
+# Testing
+/coverage
+
+# Production
+/build
