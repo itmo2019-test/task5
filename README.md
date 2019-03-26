@@ -1,34 +1,35 @@
-# task5 TEST
+# Задание 5
 
 [![Build Status](https://travis-ci.com/itmo2019-test/task5.svg?branch=master)](https://travis-ci.com/itmo2019-test/task5)
 
-## Available Scripts
+## Доступные скрипты
 
-In the project directory, you can run:
+В этой папке вы можете запустить следующие скрипты:
 
-### `npm start`
+### `npm run start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускает приложение в режиме разработки.<br>
+Открывает [http://localhost:3000](http://localhost:3000) для просмотра в браузере.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+При изменении кода, страница автоматически перезагрузится.
 
-### `npm test`
+### `npm run test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Запускает тесты<br>
+Подробнее можно посмотреть [здесь](https://facebook.github.io/create-react-app/docs/running-tests).
 
-## Learn More
+### `npm run lint`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Запускает линтер для проверки стиля кода(js, css)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run lint-fix`
 
-### Code Splitting
+Автофикс кода по кодстайлу.<br>
+Обязательно запускайте перед коммитом.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### `npm run format`
 
-### Analyzing the Bundle Size
+Исправляет форматирование кода. Отступы, запятые и т.д.<br>
+Обязательно запускайте перед коммитом.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
