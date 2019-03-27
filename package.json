@@ -26,7 +26,8 @@
     "lint-fix": "npm-run-all lint-fix:*",
     "lint-fix:css": "stylelint --fix '**/*.css'",
     "lint-fix:js": "eslint --fix '**/*.{js,jsx}'",
-    "format": "prettier --write '**/*.{js,jsx,css,json,md}'"
+    "format": "prettier --write '**/*.{js,jsx,css,json,md}'",
+    "now-build": "npm run build"
   },
   "browserslist": [
     ">0.2%",
