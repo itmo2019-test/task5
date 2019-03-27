@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import './app.css';
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <div className="app">
         <header className="app-header">
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/app/app.jsx</code> and save to reload.
           </p>
           <a
             className="app-link"
@@ -23,5 +23,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
