@@ -57,4 +57,4 @@ WebStorm включает в себя всё необходимое для ра�
 - [React](https://ru.reactjs.org) 🇷🇺
 - [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) 🇺🇸
 
-![React](https://raw.githubusercontent.com/evgenymarkov/public-images/master/react-logo.png)
+![We need to go deeper](https://raw.githubusercontent.com/evgenymarkov/public-images/master/go-deeper.png)
